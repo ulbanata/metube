@@ -1,0 +1,18 @@
+/home/vagrant/.rbenv/versions/2.1.0/bin/ruby extconf.rb 
+creating Makefile
+
+make "DESTDIR=" clean
+make: Warning: File `Makefile' has modification time 0.31 s in the future
+make: warning:  Clock skew detected.  Your build may be incomplete.
+
+make "DESTDIR="
+make: Warning: File `Makefile' has modification time 0.3 s in the future
+compiling atomic_reference.c
+linking shared-object atomic_reference.so
+make: warning:  Clock skew detected.  Your build may be incomplete.
+
+make "DESTDIR=" install
+make: Warning: File `Makefile' has modification time 0.18 s in the future
+/usr/bin//install -c -m 0755 atomic_reference.so ./.gem.20140225-2499-19u3dlq
+installing default atomic_reference libraries
+make: warning:  Clock skew detected.  Your build may be incomplete.
