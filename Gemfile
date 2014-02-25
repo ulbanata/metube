@@ -48,3 +48,5 @@ end
 gem 'rspec-rails'
 gem 'pry-debugger'
 
+# Make the console look better
+gem 'hirb'
